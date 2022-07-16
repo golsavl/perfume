@@ -1,0 +1,69 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+  font-family: 'Montserrat', sans-serif;
+  color: hsl(228, 12%, 48%);
+}
+
+h1 {
+  font-family: 'Fraunces', serif;
+  color: hsl(212, 21%, 14%);
+}
+
+.perfume {
+  letter-spacing: 5px;
+}
+
+.middle {
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  width: 610px;
+  height: 500px;
+  position: absolute;
+  bottom: 50%;
+  right: 50%;
+  transform: translate(50%, 50%);
+  border-radius: 15px;
+}
+
+.left {
+  width: 305px;
+  height: 500px;
+  float: left;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.right {
+  float: right;
+  padding: 25px;
+}
+
+.money-left {
+  display: inline-block;
+  color: hsl(158, 36%, 37%);
+}
+
+.money-right {
+  display: inline;
+  margin-left: 20px;
+  text-decoration: line-through;
+}
+
+.btn {
+  margin: 10px;
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  background: #3C8067;
+  padding: 14px 65px 14px 65px;
+  text-decoration: none;
+  border-color: #3C8067;
+}
+
+.btn:hover {
+  background: hsl(212, 21%, 14%);
+  text-decoration: none;
+}
